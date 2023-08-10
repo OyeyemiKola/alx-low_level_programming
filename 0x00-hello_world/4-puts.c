@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /**
+ * main - main block
+ * Return: 0
  * This code sends the string
  * "Programming is like building a multilingual puzzle"
  * to the Standard Output.

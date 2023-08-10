@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /**
+ * main - main block
+ * Return: 0
  * This code sends the string
  * with proper grammar, but the outcome is a piece of art,
  * to the Standard Output.
