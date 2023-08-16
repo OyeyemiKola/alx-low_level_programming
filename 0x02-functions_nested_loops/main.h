@@ -1,38 +1,16 @@
-#include <stdio.h>
-
-/** 
- * main - stores some functions
- *
- * Return: Always 0 
- * headerfile
- */
-
-int showPutchar(void)
-{
-  printf("_putchar\n");
-        return (0);
-}
-
-
 /**
- * 1. I sometimes suffer from insomnia. 
- * And when I can't fall asleep, I play what I call the alphabet game
+ * print_alphabt - print the lower-case alphabet on one line.
  */
-
-int print_alphabet(void)
-{
-	char alph;
-
-	alph = 'a';
-
-	while (alph <= 'z')
-	{	
-		putchar(alph);
-		alph++;
-	}
-
-	putchar('\n');
-	return (0);
-}
-
-
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(char c);
+int _isalpha(char c);
+int print_sign(int n);
+int _abs(int n);
+int print_last_digit(int n);
+void jack_bauer(void);
+void times_table(void);
+int add(int a, int b);
+void print_to_98(int n);
+void print_times_table(int n);

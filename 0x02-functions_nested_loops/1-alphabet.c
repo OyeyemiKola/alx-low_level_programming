@@ -1,15 +1,17 @@
-#include "main.h" 
-
+#include "main.h"
 /**
- * main - it will print alphabet
+ * print_alphabet - wirte the the lower-case alphabet on a line.
  *
- * Return: 0 Always
+ *
+ *
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char c;
 
-	return (0);
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
-
