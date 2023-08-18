@@ -1,4 +1,6 @@
 #include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 /** 
  * main - header file for the prototyoe code
