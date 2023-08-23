@@ -1,13 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - Resets the value of var n to 98
- *
- * @n: pointer to the variable
- * Return: Nothing.
+ * reset_to_98 - updates the value of the variable
+ * the pointer points to to 98
+ * @n: pointer to the variable to update
  */
-
 void reset_to_98(int *n)
 {
 	*n = 98;
